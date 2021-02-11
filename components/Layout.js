@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
+import Navigation from './Navigation';
+import Footer from './Footer';
 
 function Layout({ title, children }) {
 	return (
@@ -14,9 +16,11 @@ function Layout({ title, children }) {
 					rel='stylesheet'
 				/>
 			</Head>
+			<Navigation />
 			<main className='mx-auto flex justify-center flex-row flex-wrap w-screen'>
 				{children}
 			</main>
+			<Footer />
 		</div>
 	);
 }
