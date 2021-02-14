@@ -33,7 +33,7 @@ function Footer() {
 						</svg>
 					</a>
 					<a
-						classNameName='rounded transition duration-300 ease-in-out hover:bg-blue-900'
+						className='rounded transition duration-300 ease-in-out hover:bg-blue-900'
 						href='https://www.amazon.com/W-M-Wiltshire/e/B07S2MYQ3V/ref=dp_byline_cont_ebooks_1'
 						target='_blank'
 					>
@@ -42,7 +42,7 @@ function Footer() {
 						</span>
 					</a>
 					<a
-						classNameName='rounded transition duration-300 ease-in-out hover:bg-blue-900 p-4'
+						className='rounded transition duration-300 ease-in-out hover:bg-blue-900 p-4'
 						href='https://www.goodreads.com/author/show/19183152.W_M_Wiltshire?from_search=true'
 						target='_blank'
 					>

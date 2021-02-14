@@ -5,16 +5,17 @@ function NextTimeBooks() {
 	return (
 		<div>
 			{/* <!-- Books - Lost In Time --> */}
-			<div className='container'>
+			<div className='container flex flex-row flex-wrap'>
 				<Image
 					src='/lostintime.webp'
 					height={622}
 					width={400}
 					alt='Lost In Time Book Cover'
+					className='w-1/3'
 				/>
-				<div className='book-description'>
-					<h1>Lost In Time</h1>
-					<p>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-2/3 mt-10'>
+					<h1 className='text-2xl'>Lost In Time</h1>
+					<p className='m-6'>
 						Professor Quinn Delaney is in the final stage of his lifelong quest
 						to unlock the mystery of time travel. But before he can complete his
 						work disaster strikes. The professor’s twins, Dani and Daric, are
@@ -31,39 +32,46 @@ function NextTimeBooks() {
 						to helplessly watch history unfold, while fighting the overwhelming
 						urge to intervene and risk altering history forever.
 					</p>
-					<div className='buttons'>
+					<div className='w-full flex space-x-4 my-5'>
 						<a
 							className='btn'
 							href='https://books2read.com/Lost-In-Time'
 							target='_blank'
 						>
-							<span>Available Now!</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Available Now!
+							</span>
 						</a>
 						<a
 							className='btn'
 							href='https://www.goodreads.com/book/show/45882252-lost-in-time'
 							target='_blank'
 						>
-							<span>Find on Goodreads</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Find on Goodreads
+							</span>
 						</a>
 						<a className='btn' href='#'>
-							<span>Book Club Q&A</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Book Club Q&A
+							</span>
 						</a>
 					</div>
 				</div>
 			</div>
 
 			{/* <!-- Running Out of Time --> */}
-			<div className='container'>
+			<div className='container flex flex-row flex-wrap'>
 				<Image
 					src='/runningoutoftime.webp'
 					height={622}
 					width={400}
 					alt='Running Out of Time Book Cover'
+					className='1/3'
 				/>
-				<div className='book-description'>
-					<h1>Runnings Out of Time</h1>
-					<p>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-2/3 mt-10'>
+					<h1 className='text-2xl'>Runnings Out of Time</h1>
+					<p className='m-6'>
 						The NEXT TIME series is back with another gripping adventure across
 						time. After narrowly cheating death, our favorite time-travelling
 						twins, Dani and Daric, are back in action. With no clue how to find
@@ -81,39 +89,46 @@ function NextTimeBooks() {
 						discover, a once close family friend has unexpectedly become an
 						unstoppable adversary.
 					</p>
-					<div className='buttons'>
+					<div className='w-full flex space-x-4 my-5'>
 						<a
 							className='btn'
 							href='https://books2read.com/RunningOutOfTime'
 							target='_blank'
 						>
-							<span>Available Now!</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Available Now!
+							</span>
 						</a>
 						<a
 							className='btn'
 							href='https://www.goodreads.com/book/show/51194182-running-out-of-time'
 							target='_blank'
 						>
-							<span>Find on Goodreads</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Find on Goodreads
+							</span>
 						</a>
 						<a className='btn' href='#'>
-							<span>Book Club Q&A</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Book Club Q&A
+							</span>
 						</a>
 					</div>
 				</div>
 			</div>
 
 			{/* <!-- Race Against Time --> */}
-			<div className='container'>
+			<div className='container flex flex-row flex-wrap'>
 				<Image
 					src='/raceagainsttime.webp'
 					height={622}
 					width={400}
 					alt='Race Against Time Book Cover'
+					className='w-1/3'
 				/>
-				<div className='book-description'>
-					<h1>Race Against Time</h1>
-					<p>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-2/3 mt-10'>
+					<h1 className='text-2xl'>Race Against Time</h1>
+					<p className='m-6'>
 						At last, the final installment in the NEXT TIME series is here.
 						Professor Quinn Delaney has proven time travel is possible, but at
 						what cost? His children have vanished. His wife is in danger. And
@@ -129,23 +144,29 @@ function NextTimeBooks() {
 						last-ditch effort to jump into another period and escape certain
 						death, Dani and Daric discover they just may have run out of time.
 					</p>
-					<div className='buttons'>
+					<div className='w-full flex space-x-4 my-5'>
 						<a
 							className='btn'
 							href='https://books2read.com/RaceAgainstTime'
 							target='_blank'
 						>
-							<span>Available Now!</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Available Now!
+							</span>
 						</a>
 						<a
 							className='btn'
 							href='https://www.goodreads.com/book/show/48500003-race-against-time'
 							target='_blank'
 						>
-							<span>Find on Goodreads</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Find on Goodreads
+							</span>
 						</a>
 						<a className='btn' href='#'>
-							<span>Book Club Q&A</span>
+							<span className='transition duration-300 ease-in-out border-b border-white hover:border-b-2 hover:border-black p-1'>
+								Book Club Q&A
+							</span>
 						</a>
 					</div>
 				</div>
