@@ -1,10 +1,21 @@
 import React from 'react';
+import Image from 'next/image';
 
 function AboutSection() {
 	return (
-		<div className='w-full'>
-			<div className='container'>
-				<p className='about-section'>
+		<div className='w-full flex flex-row flex-wrap justify-center'>
+			<div className='w-full flex justify-center h-96'>
+				<Image
+					src='/authorpicture.webp'
+					height={788}
+					width={1787}
+					alt='Author Picture'
+					className='object-cover'
+				/>
+			</div>
+			<div className='container mt-5'>
+				<h1 className='text-center text-4xl'>Wendy Wiltshire</h1>
+				<p className='leading-loose m-10'>
 					I was born and raised in Canada and currently reside on the outskirts
 					of Toronto with my four-legged kid, Keiko (Shiba Inu). After a lengthy
 					and successful career with Canada’s largest financial institution, I

@@ -2,33 +2,51 @@ import React from 'react';
 
 function Contact() {
 	return (
-		<div className='w-full'>
-			<div className='header contact-header'>
-				<h1 className='header-text'>Drop Me a Line!</h1>
+		<div className='w-full mt-10'>
+			<div className='text-center'>
+				<h1 className='text-4xl'>Drop Me a Line!</h1>
 			</div>
 
-			<div className='container'>
-				<p>
-					Do you have a burning question about the Next Time Trilogy or On The
-					Brink of Extinction? Or do you just want to say hi? Maybe you want a
-					virtual guest at your next Book Club meeting! Just send me a message
-					through the form below and I will get back to you!
-				</p>
-			</div>
+			<div className='max-w-2xl bg-white py-10 px-5 m-auto w-full'>
+				<div className='text-3xl mb-6 text-center '>
+					<p>Burning question or want to say Hi?</p>
+					<p>I'd be happy to hear from you!</p>
+				</div>
 
-			<div className='container'>
-				<form className='contact-form' action='#'>
-					<input type='text' name='name' id='name' placeholder='Name' />
-					<input
-						type='text'
-						name='email'
-						id='email'
-						placeholder='example@email.com'
-					/>
-					<textarea name='message' placeholder='Comments'></textarea>
-					<button className='btn' type='submit'>
-						<span className='submit'>Submit</span>
-					</button>
+				<form className='grid grid-cols-2 gap-4 max-w-xl m-auto'>
+					<div className='col-span-2 lg:col-span-1'>
+						<input
+							type='text'
+							className='border-solid border-gray-400 border-2 p-3 md:text-xl w-full focus:ring-4'
+							placeholder='Name'
+							required
+						/>
+					</div>
+
+					<div className='col-span-2 lg:col-span-1'>
+						<input
+							type='text'
+							className='border-solid border-gray-400 border-2 p-3 md:text-xl w-full focus:ring-4'
+							placeholder='Email Address'
+							required
+						/>
+					</div>
+
+					<div className='col-span-2'>
+						<textarea
+							cols='30'
+							rows='8'
+							className='border-solid border-gray-400 border-2 p-3 md:text-xl w-full focus:ring-4'
+							placeholder='Message'
+							required
+						></textarea>
+					</div>
+
+					<div className='col-span-2 text-right'>
+						<button className='py-3 px-6 bg-blue-600 rounded text-white font-bold w-full sm:w-32'>
+							Submit
+						</button>
+					</div>
 				</form>
 			</div>
 		</div>
