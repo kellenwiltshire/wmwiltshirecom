@@ -7,7 +7,7 @@ function RecentWork() {
 		<div className='flex flex-col items-center w-full mt-44 h-auto'>
 			<div className='w-1/2 h-auto'>
 				<div className='w-full flex justify-center align-middle text-center'>
-					<h1 className='text-4xl'>Recent Works</h1>
+					<h1 className='text-4xl font-header'>Recent Works</h1>
 				</div>
 
 				<div className='flex flex-row w-full'>
@@ -19,13 +19,13 @@ function RecentWork() {
 						className='w-1/3'
 					/>
 					<div className='flex align-middle flex-col space-y-10 mt-20 flex-wrap w-2/3'>
-						<h1 className='text-4xl text-left w-full'>
+						<h1 className='text-4xl text-left w-full font-header'>
 							On The Brink of Extinction
 						</h1>
-						<p className='text-xl'>
+						<p className='text-xl font-body'>
 							Three very diverse animals are united in a common goal: survival.
 						</p>
-						<p className='text-xl'>
+						<p className='text-xl font-body'>
 							Witness their remarkable journey as they search for a new home,
 							one away from humans. These inspiring animals face perilous trials
 							and harrowing challenges in a magnificent ecosystem that is
@@ -35,7 +35,7 @@ function RecentWork() {
 							family they become. Humans brought them to the brink of
 							extinction. Is it too late now to save them?
 						</p>
-						<div className='flex flex-row flex-wrap'>
+						<div className='flex flex-row flex-wrap font-body space-x-4'>
 							<a
 								href='https://books2read.com/brink-of-extinction'
 								target='_blank'
