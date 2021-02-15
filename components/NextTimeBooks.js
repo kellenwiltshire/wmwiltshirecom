@@ -14,8 +14,8 @@ function NextTimeBooks() {
 					className='w-1/3'
 				/>
 				<div className='text-xl flex flex-row flex-wrap justify-between w-2/3 mt-10'>
-					<h1 className='text-2xl'>Lost In Time</h1>
-					<p className='m-6'>
+					<h1 className='text-2xl font-header'>Lost In Time</h1>
+					<p className='m-6 font-body'>
 						Professor Quinn Delaney is in the final stage of his lifelong quest
 						to unlock the mystery of time travel. But before he can complete his
 						work disaster strikes. The professor’s twins, Dani and Daric, are
@@ -32,7 +32,7 @@ function NextTimeBooks() {
 						to helplessly watch history unfold, while fighting the overwhelming
 						urge to intervene and risk altering history forever.
 					</p>
-					<div className='w-full flex space-x-4 my-5'>
+					<div className='w-full flex space-x-4 my-5 font-body'>
 						<a
 							className='btn'
 							href='https://books2read.com/Lost-In-Time'

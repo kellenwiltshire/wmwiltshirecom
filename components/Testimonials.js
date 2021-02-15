@@ -4,9 +4,11 @@ function Testimonials() {
 	return (
 		<div className='w-1/2'>
 			<div className='flex flex-col lg:grid lg:gap-4 2xl:gap-6 lg:grid-cols-3 2xl:row-span-2 2xl:pb-8 ml-2 pt-4 px-6'>
-				<h1 className='col-span-full text-4xl text-center'>Reader Reviews</h1>
+				<h1 className='col-span-full text-4xl text-center font-header'>
+					Reader Reviews
+				</h1>
 				{/* <!-- Beginning of the component about Shelby W --> */}
-				<div className='bg-gray-600 lg:order-1 lg:row-span-1 2xl:row-span-1 lg:col-span-2 rounded-lg shadow-xl mb-5 lg:mb-0'>
+				<div className='bg-gray-600 lg:order-1 lg:row-span-1 2xl:row-span-1 lg:col-span-2 rounded-lg shadow-xl mb-5 lg:mb-0 font-body'>
 					<div className='mx-6 my-8 2xl:mx-10'>
 						<h1 className='text-white text-lg'>Shelby W</h1>
 					</div>
@@ -25,7 +27,7 @@ function Testimonials() {
 				</div>
 
 				{/* <!-- Beginning of the component about Debbie S --> */}
-				<div className='bg-gray-400 lg:order-2 lg:row-span-1 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl pb-4 mb-5 lg:mb-0'>
+				<div className='bg-gray-400 lg:order-2 lg:row-span-1 2xl:row-span-1 lg:col-span-1 rounded-lg shadow-xl pb-4 mb-5 lg:mb-0 font-body'>
 					<div className='mx-8 2xl:mx-10 my-10'>
 						<h1 className='text-black text-lg'>Debbie S</h1>
 					</div>
@@ -43,7 +45,7 @@ function Testimonials() {
 				</div>
 
 				{/* <!-- Beginning of the component about Carol H --> */}
-				<div className='bg-gray-400 lg:order-4 lg:row-span-1 lg:col-span-2 rounded-lg shadow-xl mb-5'>
+				<div className='bg-gray-400 lg:order-4 lg:row-span-1 lg:col-span-2 rounded-lg shadow-xl mb-5 font-body'>
 					<div className='mx-8 my-10 lg:my-8'>
 						<h1 className='primary-color-blackish-blue text-lg'>Carol H</h1>
 					</div>
@@ -62,7 +64,7 @@ function Testimonials() {
 				</div>
 
 				{/* <!-- Beginning of the component about Kellen W --> */}
-				<div className='bg-gray-600 lg:order-3 lg:row-span-2 2xl:row-span-1 col-span-1 rounded-lg shadow-xl mb-5 pb-5'>
+				<div className='bg-gray-600 lg:order-3 lg:row-span-2 2xl:row-span-1 col-span-1 rounded-lg shadow-xl mb-5 pb-5 font-body'>
 					<div className='mx-8 my-8'>
 						<h1 className='text-white text-lg'>Kellen W</h1>
 					</div>
