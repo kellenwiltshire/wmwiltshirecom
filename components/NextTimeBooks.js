@@ -3,19 +3,19 @@ import Image from 'next/image';
 
 function NextTimeBooks() {
 	return (
-		<div>
+		<div className='mx-5'>
 			{/* <!-- Books - Lost In Time --> */}
-			<div className='container flex flex-row flex-wrap'>
+			<div className='container flex flex-row flex-wrap mx-4'>
 				<Image
 					src='/lostintime.webp'
 					height={622}
 					width={400}
 					alt='Lost In Time Book Cover'
-					className='w-1/3'
+					className='w-1/4'
 				/>
-				<div className='text-xl flex flex-row flex-wrap justify-between w-full md:w-2/3 mt-10'>
-					<h1 className='text-4xl font-header ml-6'>Lost In Time</h1>
-					<p className='m-6 font-body text-sm md:text-base'>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:w-1/2 mt-10'>
+					<h1 className='text-4xl font-header'>Lost In Time</h1>
+					<p className='my-6 font-body text-sm md:text-base'>
 						Professor Quinn Delaney is in the final stage of his lifelong quest
 						to unlock the mystery of time travel. But before he can complete his
 						work disaster strikes. The professor’s twins, Dani and Daric, are
@@ -56,17 +56,17 @@ function NextTimeBooks() {
 			</div>
 
 			{/* <!-- Running Out of Time --> */}
-			<div className='container flex flex-row flex-wrap'>
+			<div className='container flex flex-row flex-wrap mx-4'>
 				<Image
 					src='/runningoutoftime.webp'
 					height={622}
 					width={400}
 					alt='Running Out of Time Book Cover'
-					className='1/3'
+					className='1/4'
 				/>
-				<div className='text-xl flex flex-row flex-wrap justify-between w-full md:w-2/3 mt-10'>
-					<h1 className='text-4xl font-header ml-6'>Runnings Out of Time</h1>
-					<p className='m-6 font-body text-sm md:text-base'>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:1/2 mt-10'>
+					<h1 className='text-4xl font-header'>Runnings Out of Time</h1>
+					<p className='my-6 font-body text-sm md:text-base'>
 						The NEXT TIME series is back with another gripping adventure across
 						time. After narrowly cheating death, our favorite time-travelling
 						twins, Dani and Daric, are back in action. With no clue how to find
@@ -108,17 +108,17 @@ function NextTimeBooks() {
 			</div>
 
 			{/* <!-- Race Against Time --> */}
-			<div className='container flex flex-row flex-wrap'>
+			<div className='container flex flex-row flex-wrap mx-4'>
 				<Image
 					src='/raceagainsttime.webp'
 					height={622}
 					width={400}
 					alt='Race Against Time Book Cover'
-					className='w-1/3'
+					className='w-1/4'
 				/>
-				<div className='text-xl flex flex-row flex-wrap justify-between w-full md:w-2/3 mt-10'>
-					<h1 className='text-4xl font-header ml-6'>Race Against Time</h1>
-					<p className='m-6 font-body text-sm md:text-base'>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:1/2 mt-10'>
+					<h1 className='text-4xl font-header'>Race Against Time</h1>
+					<p className='my-6 font-body text-sm md:text-base'>
 						At last, the final installment in the NEXT TIME series is here.
 						Professor Quinn Delaney has proven time travel is possible, but at
 						what cost? His children have vanished. His wife is in danger. And

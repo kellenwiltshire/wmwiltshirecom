@@ -3,22 +3,20 @@ import Image from 'next/image';
 
 function ExtinctionBook() {
 	return (
-		<div>
+		<div className='mx-5'>
 			{/* <!-- Book Description --> */}
 
-			<div className='container flex flex-row flex-wrap'>
+			<div className='container flex flex-row flex-wrap mx-4'>
 				<Image
 					src='/extinction.webp'
 					height={530}
 					width={350}
 					alt='On The Brink of Extinction'
-					className='w-1/3'
+					className='w-1/4'
 				/>
-				<div className='text-xl flex flex-wrap flex-row justify-between w-full md:w-2/3 mt-10'>
-					<h1 className='text-4xl font-header ml-6'>
-						On The Brink of Extinction
-					</h1>
-					<p className='m-6 font-body'>
+				<div className='text-xl flex flex-wrap flex-row justify-between w-full lg:1/2 mt-10'>
+					<h1 className='text-4xl font-header'>On The Brink of Extinction</h1>
+					<p className='my-6 font-body'>
 						Three very diverse animals are united in a common goal: survival.
 						Witness their remarkable journey as they search for a new home, one
 						away from humans. These inspiring animals face perilous trials and

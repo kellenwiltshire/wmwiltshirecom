@@ -4,17 +4,17 @@ import Link from 'next/link';
 
 function RecentWork() {
 	return (
-		<div className='flex flex-col items-center w-full md:mt-44 h-auto m-0'>
-			<div className='mx-5 md:w-1/2 h-auto'>
+		<div className='flex flex-col items-center w-full lg:mt-44 h-auto m-0'>
+			<div className='mx-5 lg:w-1/2 h-auto'>
 				<div className='flex flex-row flex-wrap justify-center w-full'>
 					<Image
 						src='/extinction.webp'
 						height={707}
 						width={467}
 						alt='On The Brink of Extinction'
-						className='md:w-1/4'
+						className='lg:w-1/4'
 					/>
-					<div className='flex align-middle flex-col space-y-10 md:mt-20 flex-wrap md:w-1/2'>
+					<div className='flex align-middle flex-col space-y-10 lg:mt-20 flex-wrap lg:w-1/2'>
 						<h1 className='text-4xl text-left w-full font-header'>
 							On The Brink of Extinction
 						</h1>

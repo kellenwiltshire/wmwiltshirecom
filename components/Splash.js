@@ -14,7 +14,7 @@ function Splash() {
 					objectFit='cover'
 				/>
 			</div>
-			<div className='absolute text-white text-2xl md:text-7xl pt-8 md:pt-60 font-header'>
+			<div className='absolute text-white text-4xl lg:text-7xl pt-8 md:pt-20 lg:pt-60 font-header'>
 				WMWiltshire
 			</div>
 		</div>

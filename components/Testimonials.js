@@ -2,7 +2,7 @@ import React from 'react';
 
 function Testimonials() {
 	return (
-		<div className='w-screen md:w-1/2'>
+		<div className='w-screen lg:w-1/2'>
 			<div className='flex flex-col lg:grid lg:gap-4 2xl:gap-6 lg:grid-cols-3 2xl:row-span-2 2xl:pb-8 mx-2 pt-4 md:px-6'>
 				<h1 className='col-span-full text-4xl text-center font-header'>
 					Reader Reviews
