@@ -14,8 +14,10 @@ function ExtinctionBook() {
 					alt='On The Brink of Extinction'
 					className='w-1/3'
 				/>
-				<div className='text-xl flex flex-wrap flex-row justify-between w-2/3 mt-10'>
-					<h1 className='text-4xl font-header'>On The Brink of Extinction</h1>
+				<div className='text-xl flex flex-wrap flex-row justify-between w-full md:w-2/3 mt-10'>
+					<h1 className='text-4xl font-header ml-6'>
+						On The Brink of Extinction
+					</h1>
 					<p className='m-6 font-body'>
 						Three very diverse animals are united in a common goal: survival.
 						Witness their remarkable journey as they search for a new home, one

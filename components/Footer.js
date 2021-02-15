@@ -23,7 +23,7 @@ function Footer() {
 				</div>
 			</div>
 			<div className='flex flex-row justify-center my-4 font-body'>
-				<div className='flex items-center'>
+				<div className='flex flex-row flex-wrap justify-center space-x-5 md:space-x-0 items-center'>
 					<a href='https://www.facebook.com/wmwiltshire'>
 						<svg
 							className='h-6 w-6 fill-current text-blue-600 mr-6'

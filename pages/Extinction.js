@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 export default function Extinction() {
 	return (
-		<Layout>
+		<Layout title='WMWiltshire || Extinction'>
 			<ExtinctionBook />
 			<ExtinctionAnimals />
 		</Layout>

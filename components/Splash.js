@@ -3,18 +3,18 @@ import Image from 'next/image';
 
 function Splash() {
 	return (
-		<div className='w-screen max-h-96 bg-cover flex justify-center'>
+		<div className='w-screen max-h-96 bg-cover flex flex-wrap flex-row justify-center'>
 			<div>
 				<Image
 					src='/splash.jpg'
 					alt='Splash Image'
 					height={500}
 					width={1920}
-					className='object-cover'
+					className='md:object-cover'
 					objectFit='cover'
 				/>
 			</div>
-			<div className='absolute text-white text-7xl pt-60 font-header'>
+			<div className='absolute text-white text-2xl md:text-7xl pt-8 md:pt-60 font-header'>
 				WMWiltshire
 			</div>
 		</div>

@@ -3,7 +3,7 @@ import NextTimeBooks from '../components/NextTimeBooks';
 
 export default function NextTime() {
 	return (
-		<Layout>
+		<Layout title='WMWiltshire || Next Time'>
 			<NextTimeBooks />
 		</Layout>
 	);
