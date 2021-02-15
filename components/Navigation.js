@@ -4,8 +4,8 @@ import Link from 'next/link';
 function Navigation() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
 	return (
-		<nav className='relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gray-500 mb-3 w-full font-body'>
-			<div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>
+		<nav className='relative flex flex-wrap items-center justify-between px-2 py-3 bg-gray-500 mb-3 min-w-screen font-body'>
+			<div className='container px-4 mx-auto flex flex-wrap items-center justify-between w-full'>
 				<div className='w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start'>
 					<Link href='/'>
 						<a className='text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white'>

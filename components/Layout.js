@@ -5,7 +5,7 @@ import Footer from './Footer';
 
 function Layout({ title, children }) {
 	return (
-		<div>
+		<div className='w-screen m-0 overflow-hidden'>
 			<Head>
 				<title>{title}</title>
 				<link rel='icon' href='/favicon.ico' />
@@ -17,7 +17,7 @@ function Layout({ title, children }) {
 				/>
 			</Head>
 			<Navigation />
-			<main className='mx-auto flex justify-center flex-row flex-wrap w-screen'>
+			<main className='mx-auto flex justify-center flex-row flex-wrap min-w-screen'>
 				{children}
 			</main>
 			<Footer />

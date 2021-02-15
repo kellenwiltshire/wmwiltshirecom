@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
 	return (
-		<footer className='bg-gray-300 w-full'>
+		<footer className='bg-gray-300 w-screen'>
 			<div className='px-4 pt-3 pb-4 border-b -mx-4 border-gray-400'>
 				<div className='max-w-xl mx-auto text-center'>
 					<h2 className='text-2xl inline-block font-semibold text-gray-800 font-header'>

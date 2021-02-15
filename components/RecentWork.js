@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function RecentWork() {
 	return (
-		<div className='flex flex-col items-center w-full md:mt-44 h-auto'>
+		<div className='flex flex-col items-center w-full md:mt-44 h-auto m-0'>
 			<div className='mx-5 md:w-1/2 h-auto'>
 				<div className='flex flex-row flex-wrap justify-center w-full'>
 					<Image
