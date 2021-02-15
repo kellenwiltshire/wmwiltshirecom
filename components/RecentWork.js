@@ -6,10 +6,6 @@ function RecentWork() {
 	return (
 		<div className='flex flex-col items-center w-full mt-44 h-auto'>
 			<div className='w-1/2 h-auto'>
-				<div className='w-full flex justify-center align-middle text-center'>
-					<h1 className='text-4xl font-header'>Recent Works</h1>
-				</div>
-
 				<div className='flex flex-row w-full'>
 					<Image
 						src='/extinction.webp'

@@ -70,8 +70,8 @@ function NextTimeBooks() {
 					className='1/3'
 				/>
 				<div className='text-xl flex flex-row flex-wrap justify-between w-2/3 mt-10'>
-					<h1 className='text-2xl'>Runnings Out of Time</h1>
-					<p className='m-6'>
+					<h1 className='text-2xl font-header'>Runnings Out of Time</h1>
+					<p className='m-6 font-body'>
 						The NEXT TIME series is back with another gripping adventure across
 						time. After narrowly cheating death, our favorite time-travelling
 						twins, Dani and Daric, are back in action. With no clue how to find
@@ -89,7 +89,7 @@ function NextTimeBooks() {
 						discover, a once close family friend has unexpectedly become an
 						unstoppable adversary.
 					</p>
-					<div className='w-full flex space-x-4 my-5'>
+					<div className='w-full flex space-x-4 my-5 font-body'>
 						<a
 							className='btn'
 							href='https://books2read.com/RunningOutOfTime'
@@ -127,8 +127,8 @@ function NextTimeBooks() {
 					className='w-1/3'
 				/>
 				<div className='text-xl flex flex-row flex-wrap justify-between w-2/3 mt-10'>
-					<h1 className='text-2xl'>Race Against Time</h1>
-					<p className='m-6'>
+					<h1 className='text-2xl font-header'>Race Against Time</h1>
+					<p className='m-6 font-body'>
 						At last, the final installment in the NEXT TIME series is here.
 						Professor Quinn Delaney has proven time travel is possible, but at
 						what cost? His children have vanished. His wife is in danger. And
@@ -144,7 +144,7 @@ function NextTimeBooks() {
 						last-ditch effort to jump into another period and escape certain
 						death, Dani and Daric discover they just may have run out of time.
 					</p>
-					<div className='w-full flex space-x-4 my-5'>
+					<div className='w-full flex space-x-4 my-5 font-body'>
 						<a
 							className='btn'
 							href='https://books2read.com/RaceAgainstTime'

@@ -5,10 +5,10 @@ function ExtinctionAnimals() {
 	return (
 		<div className='w-full flex flex-row justify-center'>
 			<div className='container flex flex-row flex-wrap justify-center'>
-				<h1 className='text-4xl text-center w-full'>
+				<h1 className='text-4xl text-center w-full font-header'>
 					Support the Heroes of the Story through the WWF
 				</h1>
-				<div className='m-5 hover:bg-gray-400 transition duration-300 ease-in-out flex flex-row flex-wrap justify-center'>
+				<div className='m-5 hover:bg-gray-400 transition duration-300 ease-in-out flex flex-row flex-wrap justify-center font-body'>
 					<a
 						className='w-full'
 						href='https://gifts.worldwildlife.org/gift-center/gifts/Species-Adoptions/Black-footed-Ferret.aspx'

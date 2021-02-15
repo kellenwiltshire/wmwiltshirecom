@@ -3,17 +3,13 @@ import React from 'react';
 function Contact() {
 	return (
 		<div className='w-full mt-10'>
-			<div className='text-center'>
-				<h1 className='text-4xl'>Drop Me a Line!</h1>
-			</div>
-
-			<div className='max-w-2xl bg-white py-10 px-5 m-auto w-full'>
-				<div className='text-3xl mb-6 text-center '>
+			<div className='max-w-2xl bg-white py-10 px-5 m-auto w-full font-header'>
+				<div className='text-4xl mb-6 text-center '>
 					<p>Burning question or want to say Hi?</p>
 					<p>I'd be happy to hear from you!</p>
 				</div>
 
-				<form className='grid grid-cols-2 gap-4 max-w-xl m-auto'>
+				<form className='grid grid-cols-2 gap-4 max-w-xl m-auto font-body'>
 					<div className='col-span-2 lg:col-span-1'>
 						<input
 							type='text'

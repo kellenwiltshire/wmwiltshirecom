@@ -14,8 +14,8 @@ function AboutSection() {
 				/>
 			</div>
 			<div className='container mt-5'>
-				<h1 className='text-center text-4xl'>Wendy Wiltshire</h1>
-				<p className='leading-loose m-10'>
+				<h1 className='text-center text-6xl font-header'>Wendy Wiltshire</h1>
+				<p className='leading-loose m-10 font-body text-lg'>
 					I was born and raised in Canada and currently reside on the outskirts
 					of Toronto with my four-legged kid, Keiko (Shiba Inu). After a lengthy
 					and successful career with Canada’s largest financial institution, I
