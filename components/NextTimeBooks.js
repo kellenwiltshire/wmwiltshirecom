@@ -62,7 +62,7 @@ function NextTimeBooks() {
 					height={622}
 					width={400}
 					alt='Running Out of Time Book Cover'
-					className='1/4'
+					className='w-1/4'
 				/>
 				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:1/2 mt-10'>
 					<h1 className='text-4xl font-header'>Runnings Out of Time</h1>
