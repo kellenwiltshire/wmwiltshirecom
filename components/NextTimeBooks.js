@@ -64,7 +64,7 @@ function NextTimeBooks() {
 					alt='Running Out of Time Book Cover'
 					className='w-1/4'
 				/>
-				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:1/2 mt-10'>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:w-1/2 mt-10'>
 					<h1 className='text-4xl font-header'>Runnings Out of Time</h1>
 					<p className='my-6 font-body text-sm md:text-base'>
 						The NEXT TIME series is back with another gripping adventure across
@@ -116,7 +116,7 @@ function NextTimeBooks() {
 					alt='Race Against Time Book Cover'
 					className='w-1/4'
 				/>
-				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:1/2 mt-10'>
+				<div className='text-xl flex flex-row flex-wrap justify-between w-full lg:w-1/2 mt-10'>
 					<h1 className='text-4xl font-header'>Race Against Time</h1>
 					<p className='my-6 font-body text-sm md:text-base'>
 						At last, the final installment in the NEXT TIME series is here.
